@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+{
+	int year,month,day;
+	printf("Please enter your date of birth (AD)");
+	scanf("%d",&day) ;
+	printf("Please enter your birth month (AD)");
+	scanf("%d",&month) ;
+	printf("Please enter your birth year (AD)");
+	scanf("%d",&year) ;
+	printf("Your date of birth is%d,%d,%d\n",day,month,year);
+	system("pause");
+	return 0;
+}
